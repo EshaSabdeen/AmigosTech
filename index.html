@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmigosTech - Computer Products Inventory</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/background1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            color: white;
+        }
+
+        body.dark-theme {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('image/background2.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .navbar .nav-link.active {
+            font-weight: bold;
+        }
+
+        .light-theme .navbar .nav-link.active {
+            color: #ffffff !important;
+        }
+
+        .dark-theme .navbar .nav-link.active {
+            color: #3498db !important;
+        }
+
+        .content-section {
+            min-height: calc(100vh - 76px - 200px); /* Subtract navbar and footer height */
+            display: flex;
+            align-items: center;
+        }
+
+        .content-section h1 {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .content-section p {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-laptop-code me-2"></i>AmigosTech
+            </a>
+            <button id="theme-toggle" class="btn btn-sm btn-outline-light ms-2">
+                <i class="fas fa-moon"></i> Dark Mode
+            </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="display-1 fw-bold text-white mb-4" style="font-family:'Courier New'">Premium Computer Products In Town</h1>
+                    <p class="lead text-white mb-4">Discover our wide range of desktops and laptops for every need and budget.</p>
+                    <a href="products.html" class="btn btn-primary btn-lg mb-5">Browse Products</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h5><i class="fas fa-laptop-code me-2"></i>AmigosTech</h5>
+                    <p class="mb-0">Your one-stop shop for premium computer products.</p>
+                    <p class="mb-0 mt-2">&copy; 2025 AmigosTech All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="modalProductName" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalProductName">Loading product details...</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="position-relative">
+                                <img src="https://via.placeholder.com/150" class="img-fluid rounded mb-3" id="modalProductImage" alt="Product image loading">
+                                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center bg-light bg-opacity-50" id="imageLoadingOverlay" aria-hidden="true">
+                                    <div class="spinner-border text-primary" role="status">
+                                        <span class="visually-hidden">Loading image</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h4 id="modalProductPrice" class="text-primary mb-3">Loading price...</h4>
+                            <p id="modalProductDescription" class="mb-4">Loading product description...</p>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <span class="badge bg-secondary" id="modalProductCategory">Loading category...</span>
+                                <span class="text-muted">Product ID: <span id="modalProductId">Loading...</span></span>
+                            </div>
+                            <button class="btn btn-primary w-100" id="addToCartBtn" disabled aria-label="Add to cart">
+                                <i class="fas fa-cart-plus me-2" aria-hidden="true"></i>Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

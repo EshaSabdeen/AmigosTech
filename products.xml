@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='utf-8'?>
+<products>
+    <product>
+        <id>1</id>
+        <name>Dell XPS Desktop 8960</name>
+        <price>RM 11,399.99</price>
+        <category>Desktop</category>
+        <description>Best Mainstream Desktop for Most Buyers</description>
+        <specs>i7-12700/ 16GB DDR5/ 512GB SSD + 1TB/GeForce RTX3060Ti/ Windows 11</specs>
+        <image>image/pc1.jpg</image>
+    </product>
+    <product>
+        <id>2</id>
+        <name>Acer Aspire TC-1775-UR11</name>
+        <price>RM 2,245.99</price>
+        <category>Desktop</category>
+        <description>Best Budget Desktop for Most Buyers</description>
+        <specs>i5-14400/ 8GB SDRAM/ 512GB SSD/ Intel UHD Graphics 730/ Windows 11</specs>
+        <image>image/pc2.jpg</image>
+    </product>
+    <product>
+        <id>3</id>
+        <name>MSI Codex R2</name>
+        <price>RM 5,495.99</price>
+        <category>Desktop</category>
+        <description>Best Budget Gaming Desktop</description>
+        <specs>i5-14400F/ 16GB DDR5/ 1TB SSD/ GeForce RTX 4060/ Windows 11</specs>
+        <image>image/pc3.jpg</image>
+    </product>
+    <product>
+        <id>4</id>
+        <name>Lenovo Legion Tower 7i Gen 8</name>
+        <price>RM 16,245.99</price>
+        <category>Desktop</category>
+        <description>Best Midrange Gaming Desktop</description>
+        <specs>i9-13900KF/ 16GB DDR5/ 2x 2TB SSD/ GeForce RTX 4080/ Windows 11</specs>
+        <image>image/pc4.jpg</image>
+    </product>
+    <product>
+        <id>5</id>
+        <name>Corsair One i500</name>
+        <price>RM 17,995.99</price>
+        <category>Desktop</category>
+        <description>Best High-End Gaming Desktop</description>
+        <specs>i9-14900/ 64GB DDR5/ 4TB SSD M.2/ GeForce RTX 4090/ Windows 11</specs>
+        <image>image/pc5.jpg</image>
+    </product>
+    <product>
+        <id>6</id>
+        <name>Apple Mac mini M4 Pro</name>
+        <price>RM 6,495.99</price>
+        <category>Desktop</category>
+        <description>Best Mac Desktop for Most Buyers</description>
+        <specs>Apple M4 (12-core) 28GB Memory/ 512GB SSD/ Apple M4 (16-core)</specs>
+        <image>image/pc6.jpg</image>
+    </product>
+    <product>
+        <id>7</id>
+        <name>HP Envy Move</name>
+        <price>RM 4,595.99</price>
+        <category>Desktop</category>
+        <description>Best All-in-One Windows Desktop for Most Buyers</description>
+        <specs>i5-1335U/ 16GB DDR5/ 1TB SSD M.2/ Intel Iris Xe Graphics/ Windows 11</specs>
+        <image>image/pc7.jpg</image>
+    </product>
+    <product>
+        <id>8</id>
+        <name>Lenovo ThinkCentre M90a Gen 5</name>
+        <price>RM 5,565.99</price>
+        <category>Desktop</category>
+        <description>Best All-in-One Business Desktop</description>
+        <specs>i5-13400/ 8GB DDR5/ 256GB SSD M.2/ Intel UHD Graphics 770/ Windows 11</specs>
+        <image>image/pc8.jpg</image>
+    </product>
+    <product>
+        <id>9</id>
+        <name>M4 MacBook Air 15"</name>
+        <price>RM 5,995.99</price>
+        <category>Laptop</category>
+        <description>Best overall MacBook</description>
+        <specs>Apple M4/ 16GB/ 512GB SSD/ Apple M4(10-core)</specs>
+        <image>image/pc9.jpg</image>
+    </product>
+    <product>
+        <id>10</id>
+        <name>M4 MacBook Air 13"</name>
+        <price>RM 4,995.99</price>
+        <category>Laptop</category>
+        <description>Best laptop for students</description>
+        <specs>Apple M4/ 16GB/ 256GB SSD/ Apple M4(8-core)</specs>
+        <image>image/pc10.jpg</image>
+    </product>
+    <product>
+        <id>11</id>
+        <name>Microsoft Surface Laptop 7</name>
+        <price>RM 8,660.99</price>
+        <category>Laptop</category>
+        <description>Best Windows laptop</description>
+        <specs>Snapdragon® X Plus/ 16GB DDR5/ 256GB SSD/ Rualcomm® Adreno™ GPU/ Windows 11</specs>
+        <image>image/pc11.jpg</image>
+    </product>
+    <product>
+        <id>12</id>
+        <name>Acer Aspire 14" AI</name>
+        <price>RM 3,750.99</price>
+        <category>Laptop</category>
+        <description>Best budget laptop</description>
+        <specs>Intel® Core™ Ultra 7 258V/ 32GB DDR5/ 1TB NVMe SSD/ Intel® Arc Graphics 140V/ Windows 11</specs>
+        <image>image/pc12.jpg</image>
+    </product>
+    <product>
+        <id>13</id>
+        <name>Lenovo Yoga 7 14" Gen 9</name>
+        <price>RM 4,500.99</price>
+        <category>Laptop</category>
+        <description>Best 2-in-1 laptop</description>
+        <specs>AMD Ryzen 7 8840HS/ 16GB DDR5/ 1TB SSD/ AMD Radeon 780M/ Windows 11</specs>
+        <image>image/pc13.jpg</image>
+    </product>
+    <product>
+        <id>14</id>
+        <name>Microsoft Surface Pro 11</name>
+        <price>RM 4,800.99</price>
+        <category>Laptop</category>
+        <description>Best detachable 2-in-1 laptop</description>
+        <specs>Snapdragon® X Elite (12 Core)/ 16GB DDR5/ 512GB SSD/ RQualcomm® Adreno™ GPU/ Windows 11</specs>
+        <image>image/pc14.jpg</image>
+    </product>
+    <product>
+        <id>15</id>
+        <name>Asus ROG Zephyrus G16</name>
+        <price>RM 13,500.99</price>
+        <category>Laptop</category>
+        <description>Best gaming laptop</description>
+        <specs>Ultra 7 Processor 155H/ 2x 8GB DDR5/ 2TB NVMe M.2 SSD/ GeForce RTX4050/ Windows 11</specs>
+        <image>image/pc15.jpg</image>
+    </product>
+    <product>
+        <id>16</id>
+        <name>Acer Predator Helios Neo 16</name>
+        <price>RM 5,975.99</price>
+        <category>Laptop</category>
+        <description>Best cheap gaming laptop</description>
+        <specs>i7-14700HX/ 16GB DDR5/ 1TB SSD/ GeForce RTX 4050 6GB/ Windows 11</specs>
+        <image>image/pc16.jpg</image>
+    </product>
+    <product>
+        <id>17</id>
+        <name>Dell UltraSharp 27" 4K USB-C Hub Monitor</name>
+        <price>RM 2,475.99</price>
+        <category>Monitor</category>
+        <description>Best Productivity Monitor</description>
+        <specs>27 inch/ 4K 3840 x 2160 at 60 Hz/ Height, pivot (rotation), swivel, tilt</specs>
+        <image>image/pc17.jpg</image>
+    </product>
+    <product>
+        <id>18</id>
+        <name>Alienware 32" 4K QD-OLED Gaming Monitor</name>
+        <price>RM 5,220.99</price>
+        <category>Monitor</category>
+        <description>Best Gaming Monitor</description>
+        <specs>32 inch/ 4k Resolution/ Curved panel, Dolby Vision and 240Hz refresh rate</specs>
+        <image>image/pc19.jpg</image>
+    </product>
+    <product>
+        <id>19</id>
+        <name>ASUS TUF Gaming 27" 1440P Monitor</name>
+        <price>RM 864.99</price>
+        <category>Monitor</category>
+        <description>Best Budget Gaming Monitor</description>
+        <specs>27 inch/ 1440p Resolution/ Fast IPS, Extreme Low Motion Blur SYNC, G-SYNC Compatible, Freesync Premium, 130% sRGB, DisplayHDR 400</specs>
+        <image>image/pc20.jpg</image>
+    </product>
+    <product>
+        <id>20</id>
+        <name>HP E45c G5 DQHD</name>
+        <price>RM 3,276.99</price>
+        <category>Monitor</category>
+        <description>Best Ultrawide Monitor</description>
+        <specs>45 inch/ Dual Quad HD/ Curved Screen LED Monitor - 32:9 - Black, Silver</specs>
+        <image>image/pc21.jpg</image>
+    </product>
+    <product>
+        <id>21</id>
+        <name>Dell 24 Touch</name>
+        <price>RM 1,619.99</price>
+        <category>Monitor</category>
+        <description>Best Touch Screen Monitor</description>
+        <specs>24 inch/ Full HD 1080p 1920 x 1080 at 60 Hz/ Height, swivel, tilt</specs>
+        <image>image/pc22.jpg</image>
+    </product>
+    <product>
+        <id>22</id>
+        <name>Razer Pro Type Ultra</name>
+        <price>RM 459.99</price>
+        <category>Keyboard</category>
+        <description>Best Keyboard for Most Users</description>
+        <specs>Wireless Mechanical Keyboard/ Silent, Linear Switches/ Ergonomic Design/ HyperSpeed Technology/ Connect up to 4 Devices/ Fully Programmable Keys and Smart Controls</specs>
+        <image>image/pc23.jpg</image>
+    </product>
+    <product>
+        <id>23</id>
+        <name>Razer BlackWidow V4 75%</name>
+        <price>RM 456.99</price>
+        <category>Keyboard</category>
+        <description>Best Wired Gaming Keyboard</description>
+        <specs>Mechanical Gaming Keyboard/ Hot Swappable Design/ Compact and Durable/ Orange Tactile Switches/ Chroma RGB/ Roller and Media Keys/ Wrist Rest Snap Tap</specs>
+        <image>image/pc24.jpg</image>
+    </product>
+    <product>
+        <id>24</id>
+        <name>Dell Wired Collaboration Keyboard KB525C</name>
+        <price>RM 124.99</price>
+        <category>Keyboard</category>
+        <description>Best Budget Office/Productivity Keyboard</description>
+        <specs>Enjoy smoother calls on the world's first wired collaboration keyboard for Zoom and Microsoft Teams/ Designed with built-in collaboration keys/ quickly turn your video or microphone on and off, screen share and open or close the chat window while on a conference call</specs>
+        <image>image/pc25.jpg</image>
+    </product>
+    <product>
+        <id>25</id>
+        <name>HyperX Cloud Alpha Wireless Gaming Headset</name>
+        <price>RM 759.00</price>
+        <category>Headset</category>
+        <description>Exceptional Battery Life and Immersive Audio</description>
+        <specs>Over 300 hours battery life / DTS Headphone:X Spatial Audio / Dual Chamber 50mm Drivers / Detachable Noise-Cancelling Mic / Aluminum Frame / 2.4GHz Wireless Connectivity</specs>
+        <image>image/pc25.jpg</image>
+    </product>
+    <product>
+        <id>26</id>
+        <name>Logitech G915 X LIGHTSPEED Wireless Mechanical Gaming Keyboard</name>
+        <price>RM 1,099.00</price>
+        <category>Keyboard</category>
+        <description>Ultra-Thin Wireless Gaming Keyboard with Tri-Mode Connectivity</description>
+        <specs>Low-profile GL mechanical switches / Tri-mode connectivity (2.4GHz LIGHTSPEED, Bluetooth, USB-C wired) / LIGHTSYNC RGB lighting / Double-shot PBT keycaps / Brushed aluminum top plate / 9 programmable G-keys / Up to 800 hours battery life (RGB off)</specs>
+        <image>image/pc26.jpg</image>
+    </product>
+    <product>
+        <id>27</id>
+        <name>Logitech G Pro X Superlight Wireless Gaming Mouse</name>
+        <price>RM 599.00</price>
+        <category>Mouse</category>
+        <description>Ultra-Lightweight Wireless Gaming Mouse for Competitive Play</description>
+        <specs>LIGHTSPEED wireless technology / HERO 25K sensor (100–25,600 DPI) / 5 programmable buttons / Ultra-lightweight design (&lt;63g) / Up to 70 hours battery life / PTFE feet for smooth glide / Powerplay compatible / Micro USB charging</specs>
+        <image>image/pc27.jpg</image>
+    </product>
+    <product>
+        <id>28</id>
+        <name>Logitech G502 X Plus Wireless RGB Gaming Mouse</name>
+        <price>RM 733.00</price>
+        <category>Mouse</category>
+        <description>High-Performance Wireless Gaming Mouse with Customizable RGB</description>
+        <specs>LIGHTFORCE hybrid optical-mechanical switches / HERO 25K sensor (25,600 DPI) / LIGHTSPEED wireless &amp; USB-C wired connectivity / 13 programmable controls / 8-zone LIGHTSYNC RGB lighting / Dual-mode scroll wheel / Adjustable DPI-shift button / Up to 130 hours battery life (RGB off), 37 hours (RGB on) / POWERPLAY compatible / 106g weight</specs>
+        <image>image/pc28.jpg</image>
+    </product>
+    <product>
+        <id>29</id>
+        <name>SteelSeries Arctis Nova 5 Wireless Gaming Headset</name>
+        <price>RM 699.00</price>
+        <category>Headset</category>
+        <description>Versatile Wireless Gaming Headset with 60-Hour Battery Life</description>
+        <specs>Dual wireless connectivity (2.4GHz &amp; Bluetooth 5.3) / 60-hour battery life / Quick-Switch button for seamless toggling / 40mm neodymium drivers / 100+ game-specific audio presets via companion app / Retractable ClearCast Gen 2.X microphone / USB-C multi-platform dongle / Compatible with PC, PS5, PS4, Nintendo Switch, and mobile devices</specs>
+        <image>image/pc29.jpg</image>
+    </product>
+    <product>
+        <id>30</id>
+        <name>SteelSeries Arctis Nova Pro Wireless Gaming Headset</name>
+        <price>RM 1,899.00</price>
+        <category>Headset</category>
+        <description>Premium Wireless Gaming Headset with Dual Audio Streams and Active Noise Cancellation</description>
+        <specs>Dual Wireless Connectivity (2.4GHz &amp; Bluetooth 5.0) / Active Noise Cancellation / Infinity Power System with Hot-Swappable Dual Batteries / 40mm Neodymium Drivers / 10Hz–22kHz Frequency Response / Retractable ClearCast Gen 2 Microphone / Dual USB-C Base Station with OLED Display / 360° Spatial Audio / Compatible with PC, PlayStation 5, PlayStation 4, Nintendo Switch, and Mobile Devices</specs>
+        <image>image/pc30.jpg</image>
+    </product>
+</products>
